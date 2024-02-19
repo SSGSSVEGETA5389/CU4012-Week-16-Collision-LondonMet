@@ -1,7 +1,19 @@
-﻿  BaseLevel.cpp
+﻿  Circle.cpp
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.h(14,23): error C2535: 'void Circle::update(float)': member function already defined or declared
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.h(11): message : see declaration of 'Circle::update'
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.cpp(15,14): error C2084: function 'void Circle::update(float)' already has a body
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.cpp(7): message : see previous definition of 'update'
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.cpp(19,14): error C2084: function 'void Circle::update(float)' already has a body
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.cpp(15): message : see previous definition of 'update'
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.cpp(20): fatal  error C1075: '{': no matching token found
+  BaseLevel.cpp
+  Collision.cpp
   GameObject.cpp
   Input.cpp
   Level.cpp
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.h(14,23): error C2535: 'void Circle::update(float)': member function already defined or declared
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.h(11): message : see declaration of 'Circle::update'
   Main.cpp
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.h(14,23): error C2535: 'void Circle::update(float)': member function already defined or declared
+C:\Users\fac0298\Documents\GitHub\CU4012-Week-16-Collision-LondonMet\CU4012-SFML\Circle.h(11): message : see declaration of 'Circle::update'
   Generating Code...
-  CU4012-SFML.vcxproj -> C:\Users\raouy\OneDrive\Documents\CU4012-GamesProgramming\CU4012-SFML\x64\Debug\CU4012-SFML.exe
