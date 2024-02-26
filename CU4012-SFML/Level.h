@@ -8,6 +8,8 @@
 #include <iostream>
 #include "Circle.h"
 #include "Squares.h"
+#include "Paddle1.h"
+#include "Paddle2.h"
 
 
 class Level : public BaseLevel{
@@ -23,7 +25,7 @@ private:
 	// Default variables for level class.
 
 	Circle ball1;
-	Circle ball2;
+	
 
 	sf::Texture ballTex;
 
@@ -31,4 +33,9 @@ private:
 
 	Squares CollisionSquare[2];
 	
+
+//Pong
+
+	Paddle1 p1; 
+	Paddle2 p2; 
 };
